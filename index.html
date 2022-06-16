@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de données (g-kg)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Convertisseur de données:</h1>
+    <p>Choisissez votre valeur d'entrée :</p>
+    <input id="input" type="text">
+    <select id="valeurEntree">
+        <option value="1000">Kilogramme</option>
+        <option value="100">Hectogramme</option>
+        <option value="10">Décagramme</option>
+        <option value="1">Gramme</option>
+    </select>
+    
+
+    <p>Choisissez votre valeur de sortie :</p>
+    <select id="valeurSortie">
+        <option value="1000">Kilogramme</option>
+        <option value="100">Hectogramme</option>
+        <option value="10">Décagramme</option>
+        <option value="1">Gramme</option>
+    </select>
+    <br>
+    <button id="bouton" type="submit">Lancer la conversion</button>
+
+    <p>Voici votre résultat :</p>
+    <br>
+
+    <ouput id="output" type="number"></ouput> 
+
+    <script src="./app.js"></script>
+</body>
+</html>
