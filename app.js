@@ -4,9 +4,6 @@ const bouton = document.getElementById("bouton");
 const input = document.getElementById("input");
 const output = document.getElementById("output");
 
-
 bouton.addEventListener('click', () =>{
-  result = input.value*valeurEntree.value/valeurSortie.value;
-  output.textContent = result.value;
-})
-
+  output.textContent = input.value*valeurEntree.value/valeurSortie.value;
+});
